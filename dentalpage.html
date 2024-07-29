@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+    *{ 
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-family: "Open Sans", sans-serif;
+         
+    }
+
+    img{
+        width: 15%;
+        background-color: white;
+    }
+
+    .header{
+       display: flex;
+       gap: 20px;
+    }
+
+    h1{
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 50px;
+        height: 30px;
+        color: rgb(32, 31, 31);
+    }
+
+    .bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 0 60px;
+        height: 60px;
+    }
+
+    .links{
+        list-style: none;
+        display: flex;
+        color: aqua;
+    }
+
+    li{
+        margin: 0 45px;
+        font-size: 10px;
+    }
+    
+    a{
+        color: rgb(7, 92, 92);
+    }
+
+    h2{
+        color: black;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+
+    .head2{
+        background: linear-gradient(rgb(12, 59, 59) ,rgb(161, 223, 223)) ;
+        height: 60px;
+    }
+
+    .news{
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 30px;
+        color: rgb(39, 39, 39);
+    }
+
+    .one{
+        font-size: 10px;
+    }
+
+    .event{
+        font-size: 10px;
+    }
+
+    .news{
+        background: linear-gradient(rgb(236, 148, 163) ,rgb(189, 40, 64));
+        margin: 30px;
+        border: 1px dotted black; 
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .main{
+        display: flex;
+    }
+
+    .form{
+        background: linear-gradient(rgb(174, 104, 214) , rgb(71, 52, 122));
+        margin: 30px;
+        border: 1px dotted black; 
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 10px;
+        color: rgb(39, 39, 39);
+    }
+
+    .tips{
+        background: linear-gradient(rgb(124, 150, 235) , rgb(38, 73, 148));
+        margin: 30px;
+        border: 1px dotted black; 
+        margin-left: 30px;
+        margin-top: 30px;
+        font-size: 10px;
+        color: rgb(39, 39, 39);
+    }
+
+    h4{
+        color: black;
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+
+    
+
+</style>
+<body>
+    <div class="header">
+        <img src="./happyTooth.jpg" alt="">
+        <h1>The Dental Hygeine Association</h1>
+    </div><br>
+    <nav class="bar">
+        <ul class="links">
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Adults</a></li>
+           <li><a href="#">Kids</a></li>
+           <li><a href="#">News</a></li>
+           <li><a href="#">FAQS</a></li>
+           <li><a href="#">Glossary</a></li>
+        </ul>
+    </nav><br>
+    <div class="head2">
+        <h2>ONLY 46% of households buy thoothbrushes</h2>
+    </div><br><hr>
+    <div class="main">
+    <div class="news">
+       <h4>NEWS AND EVENTS</h4><br>
+       <p class="one">click to find out more</p>
+       <ul>
+        <li class="event">Irish Academy Of Aestheitc dentistry <br>(IAAD) Meeting</li>
+        <li class="event">irish dentist report on eating disorders</li>
+        <li class="event">IDA Annual Conference 2014</li>
+        <li class="event">Material saliva predicts dental</li>
+       </ul>
+    </div>
+    <div class="form">
+        <h2>Find A Dentist</h2>
+        <p class="find dentist">Looking For A dentist in your area? enter <br>details and find dentist near
+            you</p> <br>
+        <form action="">
+            <p>
+               first name of dentist <br>
+               <input type="text" placeholder="first name"> 
+            </p>
+            <p>last <br>
+                <input type="text" placeholder="last">
+            </p>
+            <p>location <br>
+                <input type="text" placeholder="location">
+            </p>
+            <p>What Type of Dentiist You are looking for?</p>
+            <input type="checkbox" id="dentist1" name="dentist1" value="orthodentist">
+            <label for="dentist1">orthodentist</label><br>
+            <input type="checkbox" id="dentist2" name="dentist2" value="general dentist practitioner">
+            <label for="dentist2">general dentist practitioner</label>
+        </form>
+    </div>
+        <div class="tips">
+            <h2>Quick Tips</h2><br>
+            <ul>
+                <li class="point1">change your thooth brush every three months</li><br>
+                <li class="point2">clean your tongue as well as your theeth</li><br>
+                <li class="point1">floss every day</li><br>
+                <li class="point1">see your dentist every 6 months</li><br>
+                <li class="point1">cut down on how often you eat sweets and food</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
